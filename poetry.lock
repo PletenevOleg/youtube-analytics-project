@@ -230,6 +230,20 @@ files = [
 ]
 
 [[package]]
+name = "isodate"
+version = "0.6.1"
+description = "An ISO 8601 date/time/duration parser and formatter"
+optional = false
+python-versions = "*"
+files = [
+    {file = "isodate-0.6.1-py2.py3-none-any.whl", hash = "sha256:0751eece944162659049d35f4f549ed815792b38793f07cf73381c1c87cbed96"},
+    {file = "isodate-0.6.1.tar.gz", hash = "sha256:48c5881de7e8b0a0d648cb024c8062dc84e7b840ed81e864c7614fd3c127bde9"},
+]
+
+[package.dependencies]
+six = "*"
+
+[[package]]
 name = "protobuf"
 version = "4.23.2"
 description = ""
@@ -366,4 +380,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "dc9a5ce0500dae797936097a8dd2a81cb6c1753875c2563110d85e40cf51e3ad"
+content-hash = "dd8d5ddcd35dfe6b4eaf7a663bf443bab11c503ae53516c43e3c730f23d77686"
